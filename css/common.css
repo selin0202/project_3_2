@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+ header {width: 100%;height: 100%;margin: 0 auto;}
+
+        #top {width: 1200px;height: 200px;margin: 0 auto;}
+
+        #login {width: 290px;height: 30px;float: right;margin: 15px;}
+        #login > ul > li > a {float: left; text-decoration: none;color: #000;font-size: 11px; padding:10px 15px 0 0px;}
+        #login > ul > li > a > img {width: 30px; float:left; }
+        #login > ul > li > a:hover {color:#eee;}
+
+
+        #logo {width: 405px; height: 100px; float:left;margin:60px 0 0 50px; }
+        #logo > a > img {height:100%;}
+
+        nav {width:100%; height:50px; }
+        nav > ul {width: 1100px; height: 100%;  margin:0 auto; }
+        nav > ul > li { }
+        nav > ul > li > a {text-decoration: none; color:#000; margin:12px 10px; float:left; margin:13px 19px; font-weight: bold;}
+        nav > ul > li > a:hover {color:#808080;} 
+
+        #event {float:left; margin:10px 0 0 20px; width:300px; height:100px; }
+        #top > #event > a:hover {color:#eee;}
+
+/*        #event>span>a {font-size: 12px;float: left;text-decoration: none;color:#000;background-color: red;margin: 5px 5px;}*/
+
+/*        #event>p>a {font-size: 5px;background-color: pink;}*/
+        
+        /* 수정코드 시작 */
+
+        #event > a {display:block; margin-left:5px; font-size:12px; color:#000;}
+        #event > p > a:hover {color:#eee}
+
+
+footer {width: 100%; height:100%; background-color: #eee; margin:0 auto; border:2px solid  #808080;}
+
+        #contact1 > div {width: 1100px; height: 250px; margin:0 auto; }
+        
+        #contact1 > div >.about {width: 260px; height: 250px; float:left;}
+        #contact1 > div >.about > h3 {margin:30px 0 10px 10px; font-size:12px;}
+        #contact1 > div >.about > ul > li {margin: 0 0 10px 10px; font-size: 12px;}
+
+        #contact1 > div >.phone {width: 260px; height: 250px;  float:left;}
+        #contact1 > div >.phone > h3 {margin:30px 0 10px;}
+
+        #contact2 > div {background-color: red; width: 1100px; height:250px; margin: 0 auto; }
